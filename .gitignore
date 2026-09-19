@@ -1,0 +1,23 @@
+# Build output
+**/bin/
+**/obj/
+src/VbEqualizer/bin/publish/
+
+# Installer build output (large binaries -- attach to GitHub Releases instead of committing)
+installer/*.msi
+installer/*.wixpdb
+installer/bin/
+installer/obj/
+
+# Visual Studio / Rider
+.vs/
+.idea/
+*.user
+*.suo
+
+# Runtime artifacts that should never be committed
+crash.log
+
+# OS cruft
+Thumbs.db
+.DS_Store
